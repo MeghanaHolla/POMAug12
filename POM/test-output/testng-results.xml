@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69145" started-at="2019-08-07T17:18:31Z" finished-at="2019-08-07T17:19:40Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="69145" started-at="2019-08-07T17:18:31Z" finished-at="2019-08-07T17:19:40Z">
+      <class name="com.webappsecurity.zero.TestScripts.VerifyLoginTest">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.webappsecurity.zero.TestScripts.VerifyLoginTest@5c7fa833]" name="openApplication" is-config="true" duration-ms="8409" started-at="2019-08-07T17:18:51Z" finished-at="2019-08-07T17:18:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.webappsecurity.zero.TestScripts.VerifyLoginTest@5c7fa833]" name="verifyLogin" duration-ms="12698" started-at="2019-08-07T17:18:59Z" finished-at="2019-08-07T17:19:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.webappsecurity.zero.TestScripts.VerifyLoginTest@5c7fa833]" name="closeApplication" is-config="true" duration-ms="1852" started-at="2019-08-07T17:19:12Z" finished-at="2019-08-07T17:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.webappsecurity.zero.TestScripts.VerifyLoginTest -->
+      <class name="com.webappsecurity.zero.TestScripts.VerifyInvalidLloginTest">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.webappsecurity.zero.TestScripts.VerifyInvalidLloginTest@457e2f02]" name="openApplication" is-config="true" duration-ms="14391" started-at="2019-08-07T17:18:31Z" finished-at="2019-08-07T17:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyInvalidCredentailsTest()[pri:0, instance:com.webappsecurity.zero.TestScripts.VerifyInvalidLloginTest@457e2f02]" name="verifyInvalidCredentailsTest" duration-ms="4328" started-at="2019-08-07T17:18:45Z" finished-at="2019-08-07T17:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidCredentailsTest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.webappsecurity.zero.TestScripts.VerifyInvalidLloginTest@457e2f02]" name="closeApplication" is-config="true" duration-ms="1621" started-at="2019-08-07T17:18:49Z" finished-at="2019-08-07T17:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.webappsecurity.zero.TestScripts.VerifyInvalidLloginTest -->
+      <class name="com.webappsecurity.zero.TestScripts.VerifyTranferFundsTest">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.webappsecurity.zero.TestScripts.VerifyTranferFundsTest@39aeed2f]" name="openApplication" is-config="true" duration-ms="9708" started-at="2019-08-07T17:19:14Z" finished-at="2019-08-07T17:19:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyTranferFunds()[pri:0, instance:com.webappsecurity.zero.TestScripts.VerifyTranferFundsTest@39aeed2f]" name="verifyTranferFunds" duration-ms="14419" started-at="2019-08-07T17:19:24Z" finished-at="2019-08-07T17:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTranferFunds -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.webappsecurity.zero.TestScripts.VerifyTranferFundsTest@39aeed2f]" name="closeApplication" is-config="true" duration-ms="1598" started-at="2019-08-07T17:19:38Z" finished-at="2019-08-07T17:19:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.webappsecurity.zero.TestScripts.VerifyTranferFundsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
